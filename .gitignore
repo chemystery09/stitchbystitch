@@ -1,0 +1,5 @@
+backend/bin
+backend/node_modules
+frontend/bin
+frontend/node_modules
+node_modules
