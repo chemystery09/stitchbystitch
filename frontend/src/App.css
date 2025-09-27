@@ -1,0 +1,55 @@
+.welcome {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.nav-link {
+  flex-basis: 100%;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #180D30;
+  font-weight: bold;
+  background-color: #CDB8E0;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 2rem;
+  font-family: 'Jersey';
+  letter-spacing: 0.75px;
+  white-space: nowrap;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-link:hover {
+  background-color: #705C8E;
+  color: #F7F3F7;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  min-width: auto;
+}
+
+.container {
+  padding: 20px;
+  max-width: 100vw;
+  margin: 0 auto;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+

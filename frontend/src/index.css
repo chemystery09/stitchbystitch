@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Jersey"; 
+  src: url("./assets/fonts/Jersey15-Regular.ttf") format("truetype"); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #180D30;
+  font-family: 'Jersey';
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.75rem;
+}
+h2 {
+  font-size: 3rem;
+}
+
+html {
+  padding: auto;
+  background-color: #F7F3F7;
+}
